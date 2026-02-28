@@ -16,6 +16,10 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
 
+      - name: Build package
+        run: |
+          npm run build
+
       - name: Publish package
         run: |
           npm publish --provenance --no-git-checks
