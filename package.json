@@ -1,6 +1,6 @@
 {
   "name": "@dxtintx/keyrange",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -29,7 +29,12 @@
     "type": "git",
     "url": "git+https://github.com/dxtintx/keyrange.git"
   },
-  "keywords": [],
+  "keywords": [
+    "array",
+    "pattern",
+    "slice",
+    "range"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
