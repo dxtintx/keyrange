@@ -90,7 +90,7 @@ Creates a new instance of the slicer.
 
 | Method | Type | Default | Description |
 | --- | --- | --- | --- |
-| `setMode(mode)` | `"fromStart" | "fromEnd"` | `"fromStart"` | Determines the direction from which the pattern is applied. |
+| `setMode(mode)` | `"fromStart" or "fromEnd"` | `"fromStart"` | Determines the direction from which the pattern is applied. |
 | `setCutOutOfPattern(boolean)` | `boolean` | `false` | If `true`, elements not covered by the pattern will be discarded. |
 | `makeRange()` | `any[]` | `[]` | Executes the slicing and returns the new array. Throws an error if the pattern is out of bounds. |
 
